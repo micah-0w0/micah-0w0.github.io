@@ -5,14 +5,6 @@ permalink: /projects/
 published: true
 ---
 
-# Writeups
-<!-- Coming soon. -->
-<div class="writeups-box">
-  <p>Coming soon.</p>
-</div>
-
----
-
 # Projects
 
 <div class="projects-container">
