@@ -14,7 +14,7 @@ published: true
       <div class="index-btns">
           <a class="index-btn" href="/projects">projects</a>
           <a class="index-btn" href="/contact">contact</a>
-          <a class="btn download" href="uploads/resume/Micah_Nelson_Resume.pdf" download>resume</a>
+          <a class="btn download" href="/uploads/resume/Micah_Nelson_Resume.pdf" download>resume</a>
       </div>
   </div>
 

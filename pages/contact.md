@@ -30,4 +30,4 @@ I'm always open to cybersecurity opportunities and professional connections.
 
 ### Download My Resume
 
-<a class="btn download" href="/resume/Micah_Nelson_Resume.pdf" download>Resume</a>
+<a class="btn download" href="/uploads/resume/Micah_Nelson_Resume.pdf" download>Resume</a>

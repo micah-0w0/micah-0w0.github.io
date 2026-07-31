@@ -34,7 +34,7 @@ published: true
       <a href="https://www.linkedin.com/in/micah-a-nelson/">LinkedIn</a>
       <a href="https://tryhackme.com/p/tinyviolin1">TryHackMe</a>
       <a href="mailto:mngrateful@gmail.com">Email</a>
-      <a class="btn download" href="/resume/Micah_Nelson_Resume.pdf" download>Resume</a>
+      <a class="btn download" href="/uploads/resume/Micah_Nelson_Resume.pdf" download>Resume</a>
     </div>
   </div>
 
