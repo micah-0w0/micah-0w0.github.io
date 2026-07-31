@@ -5,37 +5,41 @@ permalink: /
 published: true
 ---
 
-# Micah Nelson
-exploring security operations, incident handling, and DFIR
+<!-- Left Side -->
+<div class="intro">
+    <div class="intro-left">
+      <h1 class="intro-title">Micah Nelson</h1>
+      <p class="intro-desc">exploring security operations, incident handling, and DFIR</p>
 
-<div class="index-btns">
-    <a class="index-btn" href="/homelab">home lab</a>
-    <a class="index-btn" href="/projects">projects</a>
-    <a class="btn download" href="/resume/Micah_Nelson_Resume.pdf" download>resume</a>
+      <div class="index-btns">
+          <a class="index-btn" href="/projects">projects</a>
+          <a class="index-btn" href="/contact">contact</a>
+          <a class="btn download" href="uploads/resume/Micah_Nelson_Resume.pdf" download>resume</a>
+      </div>
+  </div>
+
+  <!-- Right Side -->
+  <div class="index-links">
+      <a class="index-link" href="https://github.com/micah-0w0">GitHub</a>
+      <a class="index-link" href="https://www.linkedin.com/in/micah-a-nelson/">LinkedIn</a>
+      <a class="index-link" href="https://tryhackme.com/p/tinyviolin1">TryHackMe</a>
+  </div>
 </div>
 
-## links
-<div class="index-links">
-    <a class="index-link" href="https://github.com/micah-0w0">GitHub</a>
-    <a class="index-link" href="https://www.linkedin.com/in/micah-a-nelson/">LinkedIn</a>
-    <a class="index-link" href="https://tryhackme.com/p/tinyviolin1">TryHackMe</a>
-</div>
-
-## highlights
 <div class="highlights-container">
 
   <div class="highlight-box">
-    <h3>projects</h3>
+    <h2 class="highlight-title">featured projects</h2>
     <ul>
-      <li>GSET 2024: MBASED</li>
-      <li>USCC Cyber Camp</li>
+      <li><a href="/projects">GSET 2024: MBASED</a></li>
+      <li><a href="/projects">USCC Cyber Camp</a></li>
     </ul>
   </div>
 
   <div class="highlight-box">
-    <h3>achievements</h3>
+    <h2 class="highlight-title">achievements</h2>
     <ul>
-      <li>Completed SANS Cyber Academy</li>
+      <li>SANS Cyber Academy Graduate</li>
       <li>MIT IEEE URTC Presentation</li>
       <li>TryHackMe Top 2%</li>
       <li>National Cyber Scholar</li>
@@ -43,11 +47,11 @@ exploring security operations, incident handling, and DFIR
   </div>
 
   <div class="highlight-box">
-    <h3>certifications</h3>
+    <h2 class="highlight-title">certifications</h2>
     <ul>
-      <li>GCIH</li>
-      <li>GSEC</li>
-      <li>GFACT</li>
+      <li class="cert">GCIH</li>
+      <li class="cert">GSEC</li>
+      <li class="cert">GFACT</li>
     </ul>
   </div>
 

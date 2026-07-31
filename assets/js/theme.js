@@ -18,7 +18,7 @@ const LightTheme = {
   '--code-bg-color': '#ffffff',        // clean white
   '--code-border': '#dce2f7',          // faint pastel blue border
   '--table-border-color': '#dce2f7',   // consistent pastel divider
-  '--table-header-color': '#eef2ff',   // soft nebula highlight
+  '--table-header-color': '#b4c2fc',   // soft nebula highlight
   '--shadow-color': 'rgba(0, 0, 0, 0.08)', // subtle neutral shadow
   '--invert-logo-color': 'invert(0)',
   themeName: 'LightTheme'
