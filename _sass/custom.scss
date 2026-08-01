@@ -13,7 +13,7 @@
   #particles-js {
     position: absolute;
     width: 100%;
-    height: 700px; 
+    height: 500px; 
   }
 }
 
@@ -165,3 +165,69 @@
 
 /* About Page */
 
+
+/* Contact Page */
+.contact-center {
+  max-width: 700px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.contact-center p {
+  max-width: 450px;
+  margin: 0 auto;
+  word-wrap: break-word;
+}
+
+// Boxes
+.button-column,
+.resume-box {
+  width: 450px;         
+  margin: 0 auto;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  display: inline-block;
+  text-align: center;  
+  background-color: var(--bg-color);  
+}
+
+// Buttons
+.button-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;     
+  margin: 20px auto;
+}
+
+.contact-btn {
+  width: 100%;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+// Resume Box
+.resume-box {
+  padding: 30px 0; 
+}
+
+.resume-box h2 {
+  margin: inherit;
+}
+
+// Mobile Sizing
+@media (max-width: 600px) {
+  .button-column,
+  .resume-box {
+    width: 100%;        
+    max-width: 350px;   
+  }
+
+  contact-btn {
+    padding: 0.75rem;
+  }
+
+  .contact-center p {
+    max-width: 90%;     
+  }
+}

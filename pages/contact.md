@@ -5,11 +5,13 @@ permalink: /contact/
 published: true
 ---
 
-## Contact Me
+<div class="contact-center">
 
-I'm always open to cybersecurity opportunities and professional connections.
+  <h1>Contact Me</h1>
 
-<div class="button-column">
+  <p>I'm always open to cybersecurity opportunities and professional connections.</p>
+
+  <div class="button-column">
     <a class="contact-btn" href="https://github.com/micah-0w0">
             <span class="btn-title">GitHub</span>
             <span class="btn-subtitle">@micah-0w0</span>
@@ -26,8 +28,13 @@ I'm always open to cybersecurity opportunities and professional connections.
             <span class="btn-title">Email</span>
             <span class="btn-subtitle">mngrateful@gmail.com</span>    
     </a>
+  </div>
+
+  <div class="resume-box">
+    <h2>Download My Resume</h2>
+    <a class="resume-btn" href="/uploads/resume/Micah_Nelson_Resume.pdf" download>
+        Resume
+    </a>
+  </div>
+
 </div>
-
-### Download My Resume
-
-<a class="btn download" href="/uploads/resume/Micah_Nelson_Resume.pdf" download>Resume</a>
