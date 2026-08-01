@@ -1,8 +1,3 @@
-// Site Title
-.site-title {
-    color: var(--text-color);
-}
-
 /* Particles*/
 #particles-js {
   position: fixed;
@@ -22,8 +17,44 @@
   }
 }
 
-/* Index Page */
+/* Header */
+// Site Title
+.site-title {
+    color: var(--text-color);
+}
 
+/* 404 Page */
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  text-align: center;
+}
+
+.bunny-box {
+  width: 200px;
+  aspect-ratio: 1 / 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #0a0f1f;
+  color: white;
+}
+
+.bunny-box h2 {
+  color: #e2e8ff;
+}
+
+.bunny {
+  font-family: monospace;
+  font-weight: bold;
+  line-height: 1.4;
+  margin: 0;
+}
+
+/* Index Page */
 // Intro Box
 .intro {
   display: flex;
@@ -37,6 +68,14 @@
   flex: 1;
 }
 
+// Buttons
+.intro-left a {
+  transition: 0.2s ease;
+}
+
+.intro-left a:hover {
+  opacity: 0.7;
+}
 
 // Links
 .intro-right {
@@ -58,7 +97,7 @@
   font-size: 1.1rem;
   text-decoration: none;
   padding: 6px 0;
-  transition: opacity 0.2s ease;
+  transition: 0.2s ease;
 }
 
 .index-link:hover {
@@ -123,3 +162,6 @@
     text-decoration: none;
     color: var(--text-color);
 }
+
+/* About Page */
+

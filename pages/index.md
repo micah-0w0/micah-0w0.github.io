@@ -29,21 +29,25 @@ published: true
 <div class="highlights-container">
 
   <div class="highlight-box">
-    <h2 class="highlight-title">featured projects</h2>
-    <ul>
-      <li><a href="/projects">GSET 2024: MBASED</a></li>
-      <li><a href="/projects">USCC Cyber Camp</a></li>
-    </ul>
+    <a href="/projects">
+      <h2 class="highlight-title">featured projects</h2>
+      <ul>
+        <a href="/projects"><li>GSET 2024: MBASED</li></a>
+        <a href="/projects"><li>USCC Cyber Camp</li></a>
+      </ul>
+    </a>
   </div>
 
   <div class="highlight-box">
-    <h2 class="highlight-title">achievements</h2>
-    <ul>
-      <li>SANS Cyber Academy Graduate</li>
-      <li>MIT IEEE URTC Presentation</li>
-      <li>TryHackMe Top 2%</li>
-      <li>National Cyber Scholar</li>
-    </ul>
+    <a href="/about">
+      <h2 class="highlight-title">achievements</h2>
+      <ul>
+        <li>SANS Cyber Academy Graduate</li>
+        <li>MIT IEEE URTC Presentation</li>
+        <li>TryHackMe Top 2%</li>
+        <li>National Cyber Scholar</li>
+      </ul>
+    </a>
   </div>
 
   <div class="highlight-box">
