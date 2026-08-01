@@ -30,31 +30,24 @@ published: true
     </div>
 
     <div class="about-links">
-      <a href="https://github.com/micah-0w0">GitHub</a>
-      <a href="https://www.linkedin.com/in/micah-a-nelson/">LinkedIn</a>
-      <a href="https://tryhackme.com/p/tinyviolin1">TryHackMe</a>
-      <a href="mailto:mngrateful@gmail.com">Email</a>
-      <a class="btn download" href="/uploads/resume/Micah_Nelson_Resume.pdf" download>Resume</a>
+      <h2>Links</h2>
+      <ul>
+        <li><a href="https://github.com/micah-0w0">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/micah-a-nelson/">LinkedIn</a></li>
+        <li><a href="https://tryhackme.com/p/tinyviolin1">TryHackMe</a></li>
+        <li><a href="mailto:mngrateful@gmail.com">Email</a></li>
+        <li><a class="btn download" href="/uploads/resume/Micah_Nelson_Resume.pdf" download>Resume</a></li>
+      </ul>
     </div>
 
     <div class="about-organizations">
       <h2>Organizations & Involvement</h2>
-
-      <div class="about-box">
-        <h3>GIAC Advisory Board</h3>
-      </div>
-
-      <div class="about-box">
-        <h3>INROADS</h3>
-      </div>
-
-      <div class="about-box">
-        <h3>FIRST Robotics</h3>
-      </div>
-
-      <div class="about-box">
-        <h3>Girls Who Code</h3>
-      </div>
+      <ul>
+        <li>GIAC Advisory Board</li>
+        <li>INROADS</li>
+        <li>FIRST Robotics</li>
+        <li>Girls Who Code</li>
+      </ul>
     </div>
   </div>
 

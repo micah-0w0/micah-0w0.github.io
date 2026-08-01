@@ -1,4 +1,10 @@
 /* Universal Styling */
+
+.wrapper { // Override Dactl page width
+  max-width: 60rem;
+  margin: auto;
+}
+
 hr { // remove weird spacing for hr margins
   margin: 2em auto;
 }
@@ -14,6 +20,7 @@ hr { // remove weird spacing for hr margins
   pointer-events: none;
 }
 
+// Mobile Sizing
 @media (max-width: 768px) {
   #particles-js {
     position: absolute;
@@ -169,7 +176,63 @@ hr { // remove weird spacing for hr margins
 }
 
 /* About Page */
+.about-hero {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  margin-top: 2rem;
+}
 
+// Bio
+.about-bio {
+  flex: 1;
+  max-width: 700px;
+  background: var(--bg-color);
+}
+
+// Sidebar
+.about-sidebar {
+  width: 300px;
+  flex-shrink: 0;
+  padding: 1em;
+  background-color: var(--code-border);
+  border: 4px solid var(--table-header-color);
+}
+
+.about-sidebar img.me {
+  width: 100%;
+  border-radius: 100%;
+  border: 3px solid var(--table-header-color);
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+.about-sidebar .about-box,
+.about-sidebar .about-edu,
+.about-sidebar .about-links {
+  margin-bottom: 1rem;
+}
+
+.about-sidebar h2, .about-sidebar p {
+  margin: 0;
+}
+
+.about-links {
+  display: flex;
+  flex-direction: column; 
+  gap: 0.5rem;
+}
+
+// Mobile Sizing
+@media (max-width: 900px) {
+  .about-hero {
+    flex-direction: column;
+  }
+
+  .about-sidebar {
+    width: 100%;
+  }
+}
 
 /* Home Lab Page */
 // Roadmap
