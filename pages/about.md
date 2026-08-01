@@ -16,7 +16,7 @@ published: true
     <p>As I continue developing my skills, I am working toward a SOC internship for Summer 2027, where I can contribute to real investigations and continue building my blue team experience. I am actively expanding my network and looking to connect with professionals who can share insights into SOC operations or early‑career cybersecurity growth.</p>
   </div>
 
-  <div class="about-photo-links">
+  <div class="about-sidebar">
     <img
       class="me"
       alt="{{ author.name }}"
@@ -25,7 +25,7 @@ published: true
     />
 
     <div class="about-edu">
-      <h3>Northeastern University</h3>
+      <h2>Northeastern University</h2>
       <p>Major: Computer Science</p>
     </div>
 
@@ -36,6 +36,26 @@ published: true
       <a href="mailto:mngrateful@gmail.com">Email</a>
       <a class="btn download" href="/uploads/resume/Micah_Nelson_Resume.pdf" download>Resume</a>
     </div>
+
+    <div class="about-organizations">
+      <h2>Organizations & Involvement</h2>
+
+      <div class="about-box">
+        <h3>GIAC Advisory Board</h3>
+      </div>
+
+      <div class="about-box">
+        <h3>INROADS</h3>
+      </div>
+
+      <div class="about-box">
+        <h3>FIRST Robotics</h3>
+      </div>
+
+      <div class="about-box">
+        <h3>Girls Who Code</h3>
+      </div>
+    </div>
   </div>
 
 </div>
@@ -43,7 +63,7 @@ published: true
 ---
 
 <div class="about-section">
-  <h2>Achievements</h2>
+  <h1>Achievements</h1>
 
   <div class="about-box">
     <h3>SANS Cyber Academy Graduate</h3>
@@ -72,7 +92,7 @@ published: true
 ---
 
 <div class="about-section">
-  <h2>Certifications & Training</h2>
+  <h1>Certifications & Training</h1>
 
   <div class="about-box">
     <h3>Certifications</h3>
@@ -84,8 +104,7 @@ published: true
   </div>
 
   <div class="about-box">
-    <h3>Training</h3>
-    <h4>SANS Cyber Academy</h4>
+    <h3>SANS Cyber Academy</h3>
     <ul>
       <li>Proficiently investigated suspicious activity across Windows and Linux systems to identify misconfigurations and potential threats</li>
       <li>Interpreted logs, packets, and network traffic to discover indicators of compromise</li>
@@ -97,24 +116,12 @@ published: true
 
 </div>
 
----
+--- 
 
 <div class="about-section">
-  <h2>Organizations & Involvement</h2>
-
   <div class="about-box">
-    <h3>GIAC Advisory Board</h3>
-  </div>
-
-  <div class="about-box">
-    <h3>INROADS</h3>
-  </div>
-
-  <div class="about-box">
-    <h3>FIRST Robotics</h3>
-  </div>
-
-  <div class="about-box">
-    <h3>Girls Who Code</h3>
+    <h1>Resume</h1>
+    <p>Click the button below to download my resume.</p><br>
+    <a class="btn download" href="/uploads/resume/Micah_Nelson_Resume.pdf" download>Download Resume</a>
   </div>
 </div>
