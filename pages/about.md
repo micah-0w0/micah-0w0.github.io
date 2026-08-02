@@ -26,6 +26,7 @@ published: true
 
     <div class="about-edu">
       <h2>Northeastern University</h2>
+      <p class="expected">Expected 2030</p>
       <p>Major: Computer Science</p>
     </div>
 
@@ -55,36 +56,38 @@ published: true
 
 ---
 
-<div class="about-section">
-  <h1>Achievements</h1>
+<h1>Achievements</h1>
 
-  <div class="about-box">
-    <h3>SANS Cyber Academy Graduate</h3>
-    <h4>2026</h4>
-    <p>Completed advanced training in system hardening, network defense, system administration, and incident response. Earned GSEC (98%) and GCIH (99%) certifications.</p>
-  </div>
+<div class="about-achievements">
+  <div class="about-grid">
+    <div class="about-box">
+      <h3>SANS Cyber Academy Graduate</h3>
+      <h4>2026</h4>
+      <p>Completed advanced training in system hardening, network defense, system administration, and incident response. Earned GSEC (98%) and GCIH (99%) certifications.</p>
+    </div>
 
-  <div class="about-box">
-    <h3>TryHackMe Top 2%</h3>
-    <p>Ranked in the Top 2% on TryHackMe after completing 150+ practical cybersecurity labs covering real-world offfensive and defensive techniques.</p>
-  </div>
+    <div class="about-box">
+      <h3>TryHackMe Top 2%</h3>
+      <p>Ranked in the Top 2% on TryHackMe after completing 150+ practical cybersecurity labs covering real-world offensive and defensive techniques.</p>
+    </div>
 
-  <div class="about-box">
-    <h3>MIT IEEE/URTC Presentation</h3>
-    <h4>2024</h4>
-    <p>Delivered a technical research presentation at the MIT IEEE Undergraduate Research Technology Conference, showcasing the Binary Ninja plugin *MBASED*, which simplifies MBA obfuscation for reverse-engineering workflows.</p>
-  </div>
+    <div class="about-box">
+      <h3>MIT IEEE/URTC Presentation</h3>
+      <h4>2024</h4>
+      <p>Delivered a technical research presentation at the MIT IEEE Undergraduate Research Technology Conference, showcasing the Binary Ninja plugin MBASED.</p>
+    </div>
 
-  <div class="about-box">
-    <h3>National Cyber Scholar</h3>
-    <h4>2024</h4>
-    <p>Awarded the National Cyber Scholarship for outstanding performance in CyberStart America, completing 200+ challenges and earning 141,000 points, placing Top 10 in New Jersey.</p>
+    <div class="about-box">
+      <h3>National Cyber Scholar</h3>
+      <h4>2024</h4>
+      <p>Awarded the National Cyber Scholarship for outstanding performance in CyberStart America.</p>
+    </div>
   </div>
 </div>
 
 ---
 
-<div class="about-section">
+<div class="about-certifications">
   <h1>Certifications & Training</h1>
 
   <div class="about-box">
@@ -111,10 +114,12 @@ published: true
 
 --- 
 
-<div class="about-section">
+<div class="about-resume">
   <div class="about-box">
     <h1>Resume</h1>
     <p>Click the button below to download my resume.</p><br>
     <a class="btn download" href="/uploads/resume/Micah_Nelson_Resume.pdf" download>Download Resume</a>
   </div>
 </div>
+
+<br>

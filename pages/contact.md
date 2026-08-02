@@ -13,28 +13,44 @@ published: true
 
   <div class="button-column">
     <a class="contact-btn" href="https://github.com/micah-0w0">
-            <span class="btn-title">GitHub</span>
-            <span class="btn-subtitle">@micah-0w0</span>
+      <span class="icon-github"></span>
+      <div class="btn-text">
+        <h2 class="btn-title">GitHub</h2>
+        <span class="btn-subtitle">@micah-0w0</span>
+      </div>
     </a>
+
     <a class="contact-btn" href="https://www.linkedin.com/in/micah-a-nelson/">
-            <span class="btn-title">LinkedIn</span>
-            <span class="btn-subtitle">Micah Nelson</span>
+      <span class="icon-linkedin"></span>
+      <div class="btn-text">
+        <h2 class="btn-title">LinkedIn</h2>
+        <span class="btn-subtitle">Micah Nelson</span>
+      </div>
     </a>
+
     <a class="contact-btn" href="https://tryhackme.com/p/tinyviolin1">
-            <span class="btn-title">TryHackMe</span>
-            <span class="btn-subtitle">@tinyviolin1</span>
+      <span class="icon-tryhackme"></span>
+      <div class="btn-text">
+        <h2 class="btn-title">TryHackMe</h2>
+        <span class="btn-subtitle">@tinyviolin1</span>
+      </div>
     </a>
+
     <a class="contact-btn" href="mailto:mngrateful@gmail.com">
-            <span class="btn-title">Email</span>
-            <span class="btn-subtitle">mngrateful@gmail.com</span>    
+      <span class="icon-email"></span>
+      <div class="btn-text">
+        <h2 class="btn-title">Email</h2>
+        <span class="btn-subtitle">mngrateful@gmail.com</span>
+      </div>
     </a>
   </div>
 
   <div class="resume-box">
-    <h2>Download My Resume</h2>
     <a class="resume-btn" href="/uploads/resume/Micah_Nelson_Resume.pdf" download>
-        Resume
+    <span class="icon-resume"></span>
+    <h2 class="btn-text">Download My Resume</h2>
     </a>
+
   </div>
 
 </div>

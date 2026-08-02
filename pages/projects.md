@@ -5,7 +5,7 @@ permalink: /projects/
 published: true
 ---
 
-# Projects
+<h1>Projects</h1>
 
 <div class="projects-container">
 
@@ -13,14 +13,14 @@ published: true
   <div class="project-box">
     <h2>MBASED Binary Ninja Plugin (NJGSET Research Project)</h2>
     <h3>2024</h3>
-    <p>MBASED is a Binary Ninja plugin designed to simplify mixed-boolean arithmetic (MBA) obfuscation in C programs. Manual analysis of obfuscated arithmetic takes time, so this project automates the detection and simplification of those patterns.</p>
+    <p>MBASED is a Binary Ninja plugin that simplifies mixed‑boolean arithmetic (MBA) obfuscation in C programs, reducing manual reverse‑engineering effort.</p>
 
     <div class="project-highlights">
         <ul>
           <li>Implemented initialization logic and a custom parser for MBA expressions</li>
           <li>Built benchmarking components to measure simplification performance</li>
           <li>Integrated functionality directly into Binary Ninja’s analysis workflow</li>
-          <li>Contributed to published research presented at MIT Undergraduate Research Technology Conference and the New Jersey Governor's School of Engineering and Technology</li>
+          <li>Contributed to research presented at the MIT Undergraduate Research Technology Conference and the New Jersey Governor's School of Engineering and Technology</li>
         </ul>
     </div>
 
@@ -41,7 +41,7 @@ published: true
   <div class="project-box">
     <h2>US Cyber Challenge Eastern Cyber Camp</h2>
     <h3>2026</h3>
-    <p>A selective, invitation‑only cybersecurity program earned by scoring among the top performers in the US Cyber Challenge competition. Trained by SANS‑affiliated instructors in intensive 10‑hour bootcamp sessions focused on exploitation fundamentals, digital forensics, malware analysis, and mobile device investigation. The camp concluded with a competitive Capture‑the‑Flag event.</p>
+    <p>A selective, invitation‑only cybersecurity program earned by placing among the top performers in the US Cyber Challenge qualification competition. Trained by SANS‑affiliated instructors in exploitation fundamentals, digital forensics, malware analysis, and mobile device investigation. The camp concluded with a competitive Capture‑the‑Flag event.</p>
 
     <div class="project-highlights">
       <ul>
@@ -100,13 +100,13 @@ published: true
     <h3>2025</h3>
     <p>A full-stack Bingo web application built with Python and Flask, featuring a custom UI,
     user authentication, win validation, and complete game logic. The project
-    demonstrates frontend design, backend development, and persistent data handling.    </p>
+    demonstrates frontend design, backend development, and persistent data handling.</p>
 
     <div class="project-highlights">
       <ul>
         <li>Designed the UI and built the full application from scratch</li>
         <li>Implemented game logic, win validation, and session handling</li>
-        <li>Recorded a demo explaining how to run and use the application</li>
+        <li>Recorded a demo showing how to run and use the application</li>
       </ul>
     </div>
 
@@ -127,12 +127,43 @@ published: true
 
 ---
 
-<!-- # Capture the Flag (CTF) Competitions -->
-<div class="ctf-box">
-  <h2>Capture the Flag (CTF) Competitions</h2>
-  <ul>
-    <li>USCC East Coast CTF 2026</li>
-    <li>Bearcat CTF 2026</li>
-    <li>CyberStart America</li>
-  </ul>
+<div class="ctf-section">
+  <h1>Capture the Flag (CTF) Competitions</h1>
+
+  <div class="ctf-marquee">
+    <div class="ctf-track">
+      <div class="ctf-item">USCC East Coast CTF 2026</div>
+      <div class="ctf-item">Bearcat CTF 2026</div>
+      <div class="ctf-item">Love at First Breach CTF</div>
+      <div class="ctf-item">picoCTF</div>
+      <div class="ctf-item">CyberStart America</div>
+
+      <!-- duplicate inside SAME track -->
+      <div class="ctf-item">USCC East Coast CTF 2026</div>
+      <div class="ctf-item">Bearcat CTF 2026</div>
+      <div class="ctf-item">Love at First Breach CTF</div>
+      <div class="ctf-item">picoCTF</div>
+      <div class="ctf-item">CyberStart America</div>
+
+      <div class="ctf-item filler"></div>
+      <div class="ctf-item filler"></div>
+      <div class="ctf-item filler"></div>
+    </div>
+  </div>
 </div>
+
+<script>
+  const track = document.querySelector('.ctf-track');
+  const marquee = document.querySelector('.ctf-marquee');
+
+  function updateMarquee() {
+    const trackWidth = track.scrollWidth / 2; // half because content is duplicated
+    marquee.style.setProperty('--track-width', trackWidth + 'px');
+
+    // speed based on width (optional)
+    marquee.style.setProperty('--scroll-duration', (trackWidth / 50) + 's');
+  }
+
+  updateMarquee();
+  window.addEventListener('resize', updateMarquee);
+</script>
