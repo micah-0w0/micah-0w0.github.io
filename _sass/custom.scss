@@ -269,14 +269,15 @@ ul {
 .about-sidebar img.me {
   width: 100%;
   height: auto;
-  max-width: 220px; 
+  max-width: 220px;
   display: block;
   margin: 0 auto;
 }
 
 .about-sidebar .about-box,
 .about-sidebar .about-edu,
-.about-sidebar .about-links, .about-sidebar img.me {
+.about-sidebar .about-links,
+.about-sidebar img.me {
   margin-bottom: 1rem;
 }
 
@@ -369,7 +370,7 @@ ul {
   .about-sidebar img.me {
     width: 100%;
     height: auto;
-    max-width: 180px; 
+    max-width: 180px;
     display: block;
   }
 }
@@ -734,19 +735,24 @@ ul {
 @media (max-width: 600px) {
 
   .contact-center a {
-    max-width: 100%;           /* <-- full width on mobile */
-    padding: 20px 0;           /* tighter padding */
+    max-width: 100%;
+    /* <-- full width on mobile */
+    padding: 20px 0;
+    /* tighter padding */
   }
 
   .button-column,
   .resume-box {
     width: 100%;
-    max-width: 100%;           /* remove 350px limit */
+    max-width: 100%;
+    /* remove 350px limit */
   }
 
   .contact-btn {
-    padding: 0.75rem;          /* fix missing dot */
-    gap: 0.75em;               /* tighter spacing */
+    padding: 0.75rem;
+    /* fix missing dot */
+    gap: 0.75em;
+    /* tighter spacing */
   }
 
   .contact-center p {
@@ -760,7 +766,8 @@ ul {
   .contact-center .icon-linkedin:before,
   .contact-center .icon-resume:before,
   .contact-center .icon-tryhackme:before {
-    font-size: 24px;           /* scale icons down */
+    font-size: 24px;
+    /* scale icons down */
     margin-left: 0.5em;
   }
 }
