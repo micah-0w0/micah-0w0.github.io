@@ -310,7 +310,8 @@ ul {
 }
 
 .about-box {
-  background: #0d1b2a;
+  background: var(--table-header-color);
+  color: var(--text-color);
   border: 1px solid rgba(255, 255, 255, 0.08);
   padding: 20px;
   border-radius: 12px;
@@ -326,23 +327,17 @@ ul {
 .about-box h3 {
   margin: 0 0 8px;
   font-size: 1.3rem;
-  color: #e0eaff;
 }
 
 .about-box h4 {
   margin: 0 0 12px;
   font-size: 0.95rem;
-  color: #9bb0d8;
+  color: var(--post-title);
   font-weight: 400;
 }
 
 .about-box p {
-  color: #dce3f5;
   line-height: 1.5;
-}
-
-.about-box li {
-  color: white;
 }
 
 .about-certifications .about-box {
@@ -350,7 +345,7 @@ ul {
 }
 
 .about-resume h1 {
-  color: white;
+  color: var(--text-color);
 }
 
 // Mobile Sizing
@@ -608,7 +603,6 @@ ul {
   animation: ctf-scroll var(--scroll-duration) linear infinite;
 }
 
-/* Items */
 .ctf-item {
   padding: 16px 24px;
   background: var(--table-border-color);
