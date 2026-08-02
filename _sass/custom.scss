@@ -266,9 +266,17 @@ ul {
   border: 4px solid var(--table-header-color);
 }
 
+.about-sidebar img.me {
+  width: 100%;
+  height: auto;
+  max-width: 220px; 
+  display: block;
+  margin: 0 auto;
+}
+
 .about-sidebar .about-box,
 .about-sidebar .about-edu,
-.about-sidebar .about-links {
+.about-sidebar .about-links, .about-sidebar img.me {
   margin-bottom: 1rem;
 }
 
@@ -356,6 +364,13 @@ ul {
 
   .about-sidebar {
     width: 100%;
+  }
+
+  .about-sidebar img.me {
+    width: 100%;
+    height: auto;
+    max-width: 180px; 
+    display: block;
   }
 }
 
@@ -646,12 +661,6 @@ ul {
   word-wrap: break-word;
 }
 
-.contact-center img {
-  display: block;
-  margin: 0;
-  margin-left: 2em;
-}
-
 .contact-center a {
   width: 450px;
   display: flex;
@@ -742,10 +751,6 @@ ul {
 
   .contact-center p {
     max-width: 90%;
-  }
-
-  .contact-center img {
-    margin-left: 1em;
   }
 
   .contact-center .icon-email:before,
