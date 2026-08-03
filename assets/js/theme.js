@@ -13,7 +13,7 @@ const LightTheme = {
   '--text-color': '#1a2340',           // deep navy for readability
   '--text-color-light': '#6b75a0',     // muted lavender-gray
   '--link-color': '#3a6dd8',           // nebula blue accent
-  '--metadata-color': '#8c94b8',       // cool gray-blue
+  '--metadata-color': 'rgba(120, 160, 255, 0.35)',       // cool blue
   '--post-title': '#2a355c',           // darker nebula navy
   '--code-bg-color': '#ffffff',        // clean white
   '--code-border': '#dce2f7',          // faint pastel blue border

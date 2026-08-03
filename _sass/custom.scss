@@ -434,12 +434,6 @@ ul {
   white-space: nowrap;
 }
 
-@media (prefers-color-scheme: dark) {
-  .plan-tags span {
-    background: rgba(120, 160, 255, 0.25);
-  }
-}
-
 // Coming Soon
 .coming-soon {
   padding: 26px;
