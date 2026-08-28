@@ -47,6 +47,7 @@ published: true
         <li>GIAC Advisory Board</li>
         <li>INROADS</li>
         <li>Women in CyberSecurity (WiCyS)</li>
+        <li>ColorStack</li>
         <li>FIRST Robotics</li>
         <li>Girls Who Code</li>
       </ul>
