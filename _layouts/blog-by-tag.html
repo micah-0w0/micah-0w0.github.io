@@ -12,8 +12,14 @@ Articles tagged with <strong>‘#{{ page.name }}’</strong>
 {% endif %}
 {% endcapture %}
 
-{% include page/title.html title=page.name subtitle=page_subtitle %}
+<div class="tag-header">
+    <h1>{{ page.name }}</h1>
+    <p>{{ page_subtitle }}</p>
+</div>
 
+<hr>
+
+<div class="tag-posts">
 {% if site.tags[page.slug] %}
     {% for post in site.tags[page.slug] %}
 
@@ -43,5 +49,6 @@ Articles tagged with <strong>‘#{{ page.name }}’</strong>
      {% else %}
    <p>There are no posts in this tag.</p>
 {% endif %}
+</div>
 
-  {% include utils/tag-box.html %}
+{% include utils/tag-box.html %}

@@ -588,8 +588,58 @@ ul {
   }
 }
 
-/* Writeups Page - Blank for Now */
+/* Writeups Page*/
 
+// Main page header
+.writeup-header {
+    margin-bottom: 3rem;
+}
+
+.writeup-header h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+// Month/archive headings 
+.posts > h1 {
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.posts {
+  margin-bottom: 3rem;
+}
+
+/* Blog by Tag */
+.tag-header {
+    margin-bottom: 3rem;
+}
+
+.tag-header h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+// Month/archive headings 
+.tag-posts > h2 {
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.tag-posts {
+  margin-bottom: 3rem;
+}
+
+/* Post Page */
+article.post {
+  margin-bottom: 0;
+}
 
 /* Contact Page */
 .contact-center {
