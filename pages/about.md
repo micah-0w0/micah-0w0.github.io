@@ -11,7 +11,7 @@ published: true
     <h1>About Me</h1>
     <p>I'm Micah, a Northeastern Computer Science major and SANS Cyber Academy graduate with GIAC certifications (GCIH, GSEC, GFACT). Through hands-on exploration, intensive training, and MIT URTC research, I’ve built my cybersecurity foundation across blue-team defense, SOC operations, and incident response.</p>
     <p>Right now, I'm expanding my technical foundation through practical work. I'm building a Microsoft Sentinel home lab where I run hands-on investigations, apply SOC triage workflows, and write incident reports that mirror operational practices. I maintain detailed notes for every lab and investigation, strengthening the documentation habits essential for SOC and IR roles.</p>
-    <p>I stay active on TryHackMe, earning a Top 2% global ranking by completing 150+ labs. I regularly practice log analysis, alert triage, network traffic inspection, and incident response techniques. Outside of TryHackMe, I have solved over 200 cybersecurity challenges and this consistent effort has shaped the way I learn and approach security events. This drive carries into the rest of my life as well.</p>
+    <p>I stay active on TryHackMe, earning a Top 1% global ranking by completing 180+ labs. I regularly practice log analysis, alert triage, network traffic inspection, and incident response techniques. Outside of TryHackMe, I have solved over 200 cybersecurity challenges and this consistent effort has shaped the way I learn and approach security events. This drive carries into the rest of my life as well.</p>
     <p>Ever since I began my cybersecurity journey in 2023, I have focused on turning my strengths into action. This mindset has led to selective training opportunities, industry certifications, and published research at MIT URTC, and it is also why cybersecurity fits me. The field rewards curiosity, continuous learning, and hands on problem solving, which match the way I grow and the way I approach challenges. It gives me space to explore deeply, build practical skills, and stay committed to improving every day.</p>
     <p>As I continue developing my skills, I am working toward a SOC internship for Summer 2027, where I can contribute to real investigations and continue building my blue team experience. I am actively expanding my network and looking to connect with professionals who can share insights into SOC operations or early‑career cybersecurity growth.</p>
   </div>
@@ -69,8 +69,8 @@ published: true
     </div>
 
     <div class="about-box">
-      <h3>TryHackMe Top 2%</h3>
-      <p>Ranked in the Top 2% on TryHackMe after completing 150+ practical cybersecurity labs covering real-world offensive and defensive techniques.</p>
+      <h3>TryHackMe Top 1%</h3>
+      <p>Ranked in the Top 1% on TryHackMe after completing 180+ practical cybersecurity labs covering real-world offensive and defensive techniques.</p>
     </div>
 
     <div class="about-box">

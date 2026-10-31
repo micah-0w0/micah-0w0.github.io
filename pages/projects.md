@@ -67,9 +67,9 @@ published: true
 
   <!-- TryHackMe -->
   <div class="project-box">
-    <h2>TryHackMe Labs (Top 2%)</h2>
+    <h2>TryHackMe Labs (Top 1%)</h2>
     <h3>Ongoing</h3>
-    <p>Completed 150+ hands-on labs across Linux, Windows, networking, web security, cloud security, and incident response fundamentals. Ranked in the Top 2% globally.</p>
+    <p>Completed 180+ hands-on labs across Linux, Windows, networking, web security, cloud security, and incident response fundamentals. Ranked in the Top 1% globally.</p>
 
     <div class="project-highlights">
       <ul>

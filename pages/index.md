@@ -44,7 +44,7 @@ published: true
       <ul>
         <li>SANS Cyber Academy Graduate</li>
         <li>MIT IEEE URTC Presentation</li>
-        <li>TryHackMe Top 2%</li>
+        <li>TryHackMe Top 1%</li>
         <li>National Cyber Scholar</li>
       </ul>
     </a>
