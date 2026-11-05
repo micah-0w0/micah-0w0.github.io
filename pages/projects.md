@@ -9,6 +9,63 @@ published: true
 
 <div class="projects-container">
 
+  <!-- SentinelOne x WiCyS ThreatOps CTF -->
+  <div class="project-box">
+    <h2>SentinelOne x WiCyS ThreatOps CTF</h2>
+    <h3>2026</h3>
+
+    <p>
+      Competed in SentinelOne's ThreatOps Challenge, performing threat hunting and incident investigations using the Singularity Data Lake and SentinelOne Management Console. Solved 33 of 40 challenges and placed 12th out of 70+ competitors.
+    </p>
+
+    <div class="project-highlights">
+      <ul>
+        <li>Investigated endpoint telemetry, security events, and threat data to identify indicators of compromise</li>
+        <li>Constructed queries and correlated findings across multiple data sources to track attacker activity</li>
+        <li>Performed threat hunting and incident analysis using enterprise EDR workflows</li>
+        <li>Earned 3,300 points and ranked in the top ~17% of competitors</li>
+      </ul>
+    </div>
+
+    <div class="skills-container">
+      <span class="skill-tag">SentinelOne</span>
+      <span class="skill-tag">Threat Hunting</span>
+      <span class="skill-tag">EDR</span>
+      <span class="skill-tag">Log Analysis</span>
+      <span class="skill-tag">Incident Response</span>
+      <span class="skill-tag">Security Operations</span>
+    </div>
+  </div>
+
+  <!-- TryHackMe -->
+  <div class="project-box">
+    <h2>TryHackMe Labs (Top 1%)</h2>
+    <h3>Ongoing</h3>
+    <p>Completed 180+ hands-on labs across Linux, Windows, networking, web security, cloud security, and incident response fundamentals. Ranked in the Top 1% globally.</p>
+
+    <div class="project-highlights">
+      <ul>
+        <li>Investigated suspicious logs and events across Linux and Windows systems</li>
+        <li>Analyzed network traffic to identify anomalies, attacker techniques, and misconfigurations</li>
+        <li>Performed endpoint triage by reviewing processes, services, and persistence mechanisms to identify suspicious behavior</li> 
+        <li>Developed structured notes and repeatable workflows for SOC-style investigations</li>
+      </ul>    
+    </div>
+
+    <div class="skills-container">
+      <span class="skill-tag">Log Analysis</span>
+      <span class="skill-tag">Packet Inspection</span>
+      <span class="skill-tag">Linux</span>
+      <span class="skill-tag">Windows</span>
+      <span class="skill-tag">Web Exploitation</span>
+      <span class="skill-tag">Cloud Security</span>
+    </div>
+
+    <div class="project-links">
+      <a href="https://tryhackme.com/p/tinyviolin1" target="_blank">See TryHackMe profile</a>
+    </div>
+  </div>
+
   <!-- GSET -->
   <div class="project-box">
     <h2>MBASED Binary Ninja Plugin (NJGSET Research Project)</h2>
@@ -65,35 +122,6 @@ published: true
     </div>
   </div>
 
-  <!-- TryHackMe -->
-  <div class="project-box">
-    <h2>TryHackMe Labs (Top 1%)</h2>
-    <h3>Ongoing</h3>
-    <p>Completed 180+ hands-on labs across Linux, Windows, networking, web security, cloud security, and incident response fundamentals. Ranked in the Top 1% globally.</p>
-
-    <div class="project-highlights">
-      <ul>
-        <li>Investigated suspicious logs and events across Linux and Windows systems</li>
-        <li>Analyzed network traffic to identify anomalies, attacker techniques, and misconfigurations</li>
-        <li>Performed endpoint triage by reviewing processes, services, and persistence mechanisms to identify suspicious behavior</li> 
-        <li>Developed structured notes and repeatable workflows for SOC-style investigations</li>
-      </ul>    
-    </div>
-
-    <div class="skills-container">
-      <span class="skill-tag">Log Analysis</span>
-      <span class="skill-tag">Packet Inspection</span>
-      <span class="skill-tag">Linux</span>
-      <span class="skill-tag">Windows</span>
-      <span class="skill-tag">Web Exploitation</span>
-      <span class="skill-tag">Cloud Security</span>
-    </div>
-
-    <div class="project-links">
-      <a href="https://tryhackme.com/p/tinyviolin1" target="_blank">See TryHackMe profile</a>
-    </div>
-  </div>
-
   <!-- CS50 -->
   <div class="project-box">
     <h2>CS50 Final Project: Bingo!</h2>
@@ -132,6 +160,7 @@ published: true
 
   <div class="ctf-marquee">
     <div class="ctf-track">
+      <div class="ctf-item">SentinelOne x WiCyS ThreatOps CTF</div>
       <div class="ctf-item">USCC East Coast CTF 2026</div>
       <div class="ctf-item">Bearcat CTF 2026</div>
       <div class="ctf-item">Love at First Breach CTF</div>
@@ -139,6 +168,7 @@ published: true
       <div class="ctf-item">CyberStart America</div>
 
       <!-- duplicate inside SAME track -->
+      <div class="ctf-item">SentinelOne x WiCyS ThreatOps CTF</div>
       <div class="ctf-item">USCC East Coast CTF 2026</div>
       <div class="ctf-item">Bearcat CTF 2026</div>
       <div class="ctf-item">Love at First Breach CTF</div>
