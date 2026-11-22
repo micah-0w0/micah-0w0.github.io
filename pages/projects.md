@@ -10,7 +10,7 @@ published: true
 <div class="projects-container">
 
   <!-- SentinelOne x WiCyS ThreatOps CTF -->
-  <div class="project-box">
+  <div class="project-box" id="sentinelxwicys-ctf">
     <h2>SentinelOne x WiCyS ThreatOps CTF</h2>
     <h3>2026</h3>
 
@@ -37,11 +37,47 @@ published: true
     </div>
   </div>
 
+  <!-- CodePath Intermediate Cybersecurity -->
+  <div class="project-box" id="codepath-cyb">
+    <h2>CodePath Intermediate Cybersecurity</h2>
+    <h3>2026</h3>
+
+    <p>
+      Completed CodePath's Intermediate Cybersecurity program, conducting hands-on investigations across endpoint, network, and application data sources. Applied incident response methodologies to identify indicators of compromise, trace attacker activity, and assess the impact of simulated security incidents.
+    </p>
+
+    <div class="project-highlights">
+      <ul>
+        <li>Investigated 14 security incidents involving phishing, Business Email Compromise (BEC), unauthorized access, insider threats, and data exfiltration</li>
+        <li>Correlated authentication logs, endpoint telemetry, and security events in Splunk to identify compromised assets and reconstruct attack timelines</li>
+        <li>Performed network forensic analysis with Wireshark and mitmproxy to trace attacker activity and uncover malicious communications</li>
+        <li>Leveraged Snort alerts, auditd logs, web server artifacts, and system telemetry to identify indicators of compromise and assess organizational impact</li>
+      </ul>
+    </div>
+
+    <div class="skills-container">
+      <span class="skill-tag">Splunk</span>
+      <span class="skill-tag">Wireshark</span>
+      <span class="skill-tag">Snort</span>
+      <span class="skill-tag">auditd</span>
+      <span class="skill-tag">mitmproxy</span>
+      <span class="skill-tag">Nginx</span>
+      <span class="skill-tag">Netdata</span>
+      <span class="skill-tag">Incident Response</span>
+      <span class="skill-tag">Threat Hunting</span>
+      <span class="skill-tag">Network Forensics</span>
+    </div>
+
+    <div class="project-links">
+      <a href="../uploads/projects/CYB102 Presentation.pdf" target="_blank">See Capstone Presentation</a>
+    </div>
+  </div>
+
   <!-- TryHackMe -->
-  <div class="project-box">
+  <div class="project-box" id="tryhackme">
     <h2>TryHackMe Labs (Top 1%)</h2>
     <h3>Ongoing</h3>
-    <p>Completed 180+ hands-on labs across Linux, Windows, networking, web security, cloud security, and incident response fundamentals. Ranked in the Top 1% globally.</p>
+    <p>Completed 190+ hands-on labs across Linux, Windows, networking, web security, cloud security, and incident response fundamentals. Ranked in the Top 1% globally.</p>
 
     <div class="project-highlights">
       <ul>
@@ -67,7 +103,7 @@ published: true
   </div>
 
   <!-- GSET -->
-  <div class="project-box">
+  <div class="project-box" id="mbased">
     <h2>MBASED Binary Ninja Plugin (NJGSET Research Project)</h2>
     <h3>2024</h3>
     <p>MBASED is a Binary Ninja plugin that simplifies mixed‑boolean arithmetic (MBA) obfuscation in C programs, reducing manual reverse‑engineering effort.</p>
@@ -95,7 +131,7 @@ published: true
   </div>
 
   <!-- USCC -->
-  <div class="project-box">
+  <div class="project-box" id="uscc2026">
     <h2>US Cyber Challenge Eastern Cyber Camp</h2>
     <h3>2026</h3>
     <p>A selective, invitation‑only cybersecurity program earned by placing among the top performers in the US Cyber Challenge qualification competition. Trained by SANS‑affiliated instructors in exploitation fundamentals, digital forensics, malware analysis, and mobile device investigation. The camp concluded with a competitive Capture‑the‑Flag event.</p>
@@ -123,7 +159,7 @@ published: true
   </div>
 
   <!-- CS50 -->
-  <div class="project-box">
+  <div class="project-box" id="bingo">
     <h2>CS50 Final Project: Bingo!</h2>
     <h3>2025</h3>
     <p>A full-stack Bingo web application built with Python and Flask, featuring a custom UI,

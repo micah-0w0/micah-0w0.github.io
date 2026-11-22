@@ -32,9 +32,10 @@ published: true
     <a href="/projects">
       <h2 class="highlight-title">featured projects</h2>
       <ul>
-        <a href="/projects"><li>SentinelOne x WiCyS ThreatOps CTF</li></a>
-        <a href="/projects"><li>GSET 2024: MBASED</li></a>
-        <a href="/projects"><li>USCC Cyber Camp</li></a>
+        <a href="/projects/#sentinelxwicys-ctf"><li>SentinelOne x WiCyS ThreatOps CTF</li></a>
+        <a href="/projects/#codepath-cyb"><li>CodePath Intermediate Cybesecurity</li></a>
+        <a href="/projects/#mbased"><li>GSET 2024: MBASED</li></a>
+        <a href="/projects/#uscc2026"><li>USCC Cyber Camp</li></a>
       </ul>
     </a>
   </div>
